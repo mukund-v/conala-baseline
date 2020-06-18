@@ -6,7 +6,7 @@ This repository contains preprocessing scripts and a baseline for the [CoNaLa Co
 
 In the `preproc` directory, there are a number of preprocessing/evaluation scripts that you can use to extract the data and convert it into a format that is easy to use for training models. The best way to see their usage is to take a look at the CoNaLa baseline below, but we'll first briefly describe them here.
 
-* `process_raw_data.py`: perform some tokenization on the source code, etc.
+* `extract_raw_data.py`: perform some tokenization on the source code, etc.
 * `json_to_seq2seq.py`: convert the json file resulting from `extract_data.py` to source/target files used by seq2seq models
 * `seq2seq_output_to_code.py`: take a decode file outputted by the seq2seq model, and "detokenize" it to the original source code for evaluation
 
